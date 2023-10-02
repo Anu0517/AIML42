@@ -1,5 +1,5 @@
 # AIML42
-With the aim to make life easier for investors , we have come up with a easy to understand and use stock predictor!!
+With the aim to make life easier for investors , we have come up with an easy to understand and use stock predictor!!
 The "MarketMinds"!!
 This project solely aims in creating a stock predictor that provides valuable insights and helps investors in decision-making.
 
