@@ -8,7 +8,7 @@ A stock predictor is a tool or system that uses data analysis, machine learning,
 Stock predictors are primarily used by investors, traders, financial analysts, and institutions to make informed decisions about buying, selling, or holding stocks. The main goal of using a stock predictor is to gain an edge in the financial markets by making predictions about which stocks are likely to perform well and which ones may underperform.
 
 We are:
-Anushka C V (lead)
-Ananya Bhat
-Akshay Kashyap M
+Anushka C V (lead) ,
+Ananya Bhat ,
+Akshay Kashyap M ,
 Abhishek R Nair
