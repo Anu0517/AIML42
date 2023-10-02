@@ -11,4 +11,4 @@ We are:
 Anushka C V (lead) ,
 Ananya Bhat ,
 Akshay Kashyap M ,
-Abhishek R Nair
+Abhishek R Nair, the minds behind MarketMinds!
