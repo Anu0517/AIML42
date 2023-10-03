@@ -9,7 +9,7 @@ Stock predictors are primarily used by investors, traders, financial analysts, a
 
 We are:
 <br>
-Anushka C V (lead) ,
+Anushka C V (LEAD) ,
 Ananya Bhat ,
 Akshay Kashyap M ,
 Abhishek R Nair, the minds behind MarketMinds!
