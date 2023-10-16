@@ -52,8 +52,8 @@ i -= 2
 i *= 2
 
 #Comparision Oerator 
-< , > , == , <= , >= , !=
-Logical -> , or , and , not - acutal words no symbols
+#< , > , == , <= , >= , !=
+#Logical -> , or , and , not - acutal words no symbols
 print(not 3==3)
 print(3>2 or 3>4)
 print(2==2 and 1==1)
@@ -138,8 +138,8 @@ stu =["El","Mike","Dustin","Lucas","Max","Will"]
 for student in stu:
     if student == "Will":
         break;
-    print(student)'''
-'''stu =["El","Mike","Dustin","Lucas","Max","Will"]
+    print(student)
+stu =["El","Mike","Dustin","Lucas","Max","Will"]
 for student in stu:
     if student == "Lucas":
         continue;
