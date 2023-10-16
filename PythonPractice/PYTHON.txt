@@ -1,0 +1,84 @@
+i= int(input("ENTER THE Number of times to be printed"))
+j=1
+for i in range(5):
+    for j in range(1):
+        if i%2==0:
+            print("**")
+        else:
+            print("*****")
+-------------------------------------------------------------------------
+
+            numb=[10,20,40,30,50,5,4,70,5,6,54,5,6]
+max=numb[0]
+for numb in numb:
+    if numb>max:
+        max=numb
+print(max)
+------------------------------------------------------------------------------------------
+
+def add(a,*args):#positional and arbitary constants
+   s=0
+   for x in args:
+      s=s+x
+   return s+a
+result = add(10,20,30,40)
+print (result)
+
+------------------------------------------------------------------------------------
+i=[10,20,30,40]
+
+j=["akshay","rohtith","kavana","dheekshith"]
+s=0
+for k in i:
+    s=s+k
+    k+=1
+print(s)
+------------------------------------------------------------------------------------
+dict={ 'name':'akshay','age':18, 'verified':True}
+print(dict)
+print(dict.get('name'))
+print(dict.keys())
+for k in dict.keys():
+    print(f'the info {k} is {dict[k]}')
+----------------------------------------------------------------------------------------
+numb=input("ENTER THE NUMBER:")
+dicr={
+    "1":"one",
+    "2":"two",
+    "3":"three",
+    "4":"four",
+    "5":"five"
+
+}
+oty=""
+for ch in numb:
+    dicr.get(ch,"!")
+    oty+=dicr.get(ch,"!")+""
+print(oty2)
+----------------------------------------------------------------------------------------------
+ch =input('''ENTER THE CHOICE FOR CALCULATION
+           1.ADDITION.
+           2.SUBTRACTION
+           3.MULTIPLICATION
+           4.DIVISON
+             ''')
+x=int(input("ENTER THE FIRST DIGIT\n"))
+y=int(input("ENTET THE SECOND DIGIT\n"))
+if ch=="1":
+    print('YOU HAVE CHOOSEN ADDITON:') 
+    sum = x+y
+    print(f'THE SUM OF{x} AND {y} IS {sum}')
+elif ch=="2":
+    print('YOU HAVE CHOOSEN SUBTRACTION')
+    sub=x-y
+    print(f'THE SUBTRACTION OF{x} AND {y} IS {sub}')
+elif ch=="3":
+    print('YOU HAVE CHOOSEN MULTIPLICATION')
+    mul=x*y
+    print(f'THE MULTIPLICATION OF{x} AND {y} IS {mul}')
+elif ch=="4":
+    print('YOU HAVE CHOOSEN DIVISION')
+    div=x/y
+    print(f'THE DIVISION OF{x} AND {y} IS {div}')
+else:
+    print("PLEASE SELCECT THE RIGHT OPTION")
