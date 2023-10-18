@@ -1,0 +1,18 @@
+age1 = int(input("Enter the first age: "))
+age2 = int(input("Enter the second age: "))
+age3 = int(input("Enter the third age: "))
+
+
+if age1 >= age2 and age1 >= age3:
+    largest_age = age1
+
+elif age2 >= age1 and age2 >= age3:
+    largest_age = age2
+
+else:
+    largest_age = age3
+
+
+print("The largest age is:"+str( largest_age))
+
+
