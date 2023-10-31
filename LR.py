@@ -14,19 +14,19 @@ print('Choose the companies Stock you want to predict\n 1.ABMD \n 2.AAXN \n 3.AA
 ch = int(input())
 
 if(ch == 1) :
-   main = pd.read_csv("D:\College\DevTrack\ABMD.csv")
+   main = pd.read_csv("ABMD.csv")
    print("Company choosen : ABMD")
 elif(ch == 2) :
-   main = pd.read_csv("D:\College\DevTrack\AAXN.csv")  
+   main = pd.read_csv("AAXN.csv")  
    print("Company choosen : AAXN")  
 elif(ch == 3) :
-   main = pd.read_csv("D:\College\DevTrack\AAWW.csv")  
+   main = pd.read_csv("AAWW.csv")  
    print("Company choosen : AAWW") 
 elif(ch == 4):
-   main = pd.read_csv("D:\College\DevTrack\JEQ.csv") 
+   main = pd.read_csv("JEQ.csv") 
    print("Company choosen : JEQ")
 elif(ch == 5):
-   main = pd.read_csv("D:\College\DevTrack\CHU.csv")
+   main = pd.read_csv("CHU.csv")
    print("Comapny chossen : CHU")
 else :
    print("Error : Enter valid input ")   
